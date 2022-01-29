@@ -1,0 +1,60 @@
+{
+  "name": "vuefetti",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Confetti for your Vue components",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjp2525/vuefetti.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "confetti",
+    "party"
+  ],
+  "author": "Reno Philibert <hello@reno.sh>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-vue": "^8.4.0",
+    "push-dir": "^0.4.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
