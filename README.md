@@ -58,7 +58,7 @@ Add to your template
 
 ```html
 <div>
-  <VueFetti v-if="visible" :options="vfconfig"></VueFetti>
+  <VueFetti v-if="visible" :options="options"></VueFetti>
   <button @click="explode">Go time</button>
 </div>
 ```
