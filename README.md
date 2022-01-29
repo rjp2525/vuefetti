@@ -2,6 +2,10 @@
 
 This is a port of the React [dom-confetti](https://github.com/daniel-lundin/dom-confetti) by [Daniel Lundin](https://github.com/daniel-lundin) for Vue 2.
 
+<p align="center">
+  <img src=".github/vuefetti-demo.gif">
+</p>
+
 ### Usage
 
 Import, register component and set options
