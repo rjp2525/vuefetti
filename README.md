@@ -1,6 +1,6 @@
 ## VueFetti
 
-This is a port of the React dom-confetti by Daniel Lundin for Vue 2.
+This is a port of the React [dom-confetti](https://github.com/daniel-lundin/dom-confetti) by [Daniel Lundin](https://github.com/daniel-lundin) for Vue 2.
 
 ### Usage
 
