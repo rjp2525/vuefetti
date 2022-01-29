@@ -8,6 +8,12 @@ This is a port of the React [dom-confetti](https://github.com/daniel-lundin/dom-
 
 ### Usage
 
+Install from npm
+
+```bash
+npm install --save vuefetti
+```
+
 Import, register component and set options
 
 ```js
